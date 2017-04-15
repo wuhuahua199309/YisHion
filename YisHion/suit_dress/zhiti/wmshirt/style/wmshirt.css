@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.contents{width:100%; border-top:1px solid #898989; }
+.subContent{width:991px; margin:0 auto; position:relative;}
+.subContent>p{width:157px; position:absolute; left:420px; top:-10px; height:16px; line-height:16px; background:#fff; font-size:12px; color:#808285; font-family:"微软雅黑"; text-align:center;}
+.subContent>p a{font-size:12px; color:#3e3a39; font-family:Arial, Helvetica, sans-serif;}
+.wmshirt_left{width:179px; float:left; margin-bottom:40px;}
+.wmshirt_left h2{height:45px; line-height:45px; font-size:18px; font-family:"微软雅黑"; color:#3e3a58; font-weight:normal;}
+.wmshirt_left li{height:24px; line-height:24px; }
+.wmshirt_left li a{color:#999; font-family:"微软雅黑"; font-size:12px;}
+.wmshirt_left li a:hover{color:#000;}
+
+.wmshirt_right{width:812px; float:left; margin-top:29px;}
+.wmshirt_right h2{padding-top:5px; height:76px; font-size:18px; font-family:"微软雅黑"; color:#3e3a39; font-weight:normal;}
+.wmshirt_right h5{ height:48px; line-height:48px; color:#3e3a39; font-family:"微软雅黑"; font-size:14px; font-weight:normal;}
+.wmshirt_right li{float:left; padding-bottom:39px; margin-right:29px;}
+.wmshirt_right li p{padding-top:11px; font-size:12px; line-height:18px; color:#3e3a39;}
+.wmshirt_right li p a{color:#3e3a39;}
+.wmshirt_right li p a:hover{color:#111;}

@@ -1,0 +1,89 @@
+ $(function(){
+  //初始化	 	    	    
+ 	function bannerInit(){	    	
+    	var banH = $(window).height()-55;
+    	var winW = $(window).width();
+      $('#banner_box').height(banH);
+    	$('#banner_sec').height(banH+55).css('top',banH+55);
+    	(banH >= winW / 1.47) ? 	$('.banner_img img').height(banH).css('width',"auto") : $('.banner_img img').width(winW).css('height',"auto");
+    }
+	bannerInit();
+	$(window).resize(bannerInit);
+
+  //菜单变换
+  $(window).scroll(function(){
+    	var top = document.body.scrollTop | document.documentElement.scrollTop;
+		if(top > 350){			
+			  $('#nav_1').hide();
+			  $('#nav_2').show();
+		}
+		else{		
+			$('#nav_1').show();
+			 $('#nav_2').hide();
+		}
+    });
+
+  //滚轮滑动
+  $('#banner_box').mousewheel(function(event, delta, deltaX, deltaY) {  
+	    delta==-1 &&  $('.content').animatescroll({scrollSpeed:500,padding:55});
+	});
+  $('#banner_sec').mousewheel(function(event, delta, deltaX, deltaY) {  
+       delta== 1 &&  $('body').animatescroll({scrollSpeed:500});
+       
+  });
+  $('#content').mousewheel(function(event, delta, deltaX, deltaY) {  
+       if($(window).scrollTop() < $(window).height()){
+        delta== 1 &&  $('body').animatescroll({scrollSpeed:500});
+       }
+  });
+  $('#banner_sec').click(function() {  
+       console.log(1)
+       
+  });
+   
+  $('#scroll_btn').click(function(){
+    $('.content').animatescroll({scrollSpeed:500,padding:55});
+  });
+
+
+  
+
+  //大图轮播
+  var index = 1,timer,preIndex = 0;
+  $("#banner_ul").find("li").css("opacity","0").eq(0).css({"opacity":"1","z-index":"1"});
+  function show(i){
+    $("#banner_ul").find("li").eq(preIndex).stop(true,false).animate({opacity:0},1000).css("z-index","0");
+    $("#banner_ul").find("li").eq(i).stop(true,false).animate({opacity:1},1000).css("z-index","1");
+    $("#number_ul").find("li").removeClass("active").eq(i).addClass("active");
+    preIndex = i;
+  }
+  function autoPlay(){
+    timer = setInterval(function(){
+      show(index);
+      index++;
+      index >= $("#banner_ul li").length &&(index = 0);
+    },4000)
+  }		
+	autoPlay();	
+  $("#number_ul").find("li").hover(function(){ 
+    clearInterval(timer);
+    index = $(this).index();
+    show(index)
+  },function(){
+     index++;
+     index >= $("#banner_ul li").length &&(index = 0);
+     autoPlay();
+  })	
+
+  //动态效果
+  
+  if(!($.browser.msie && ($.browser.version == '8.0'||$.browser.version == '7.0'))){
+      wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100
+      }
+    );
+      wow.init();
+  }
+});

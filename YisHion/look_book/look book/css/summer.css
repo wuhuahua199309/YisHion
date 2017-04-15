@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.content{ width:100%; margin:10px auto; border-top:1px solid #898989;}
+.content .subContent{ width:990px; margin:0px auto;  position:relative; text-align:center;}
+.content .subContent .one{ display:block; font-size:10px; font-family:'黑体'; color:#3e3a39; font-weight:200; position:absolute; left:416px; top:-5px; background:#fff; padding-left:11px; padding-right:11px; letter-spacing: 1px}
+.content .subContent .one span{ color:#808285;}
+.content .subContent h1{ font-size:24px; font-family:'微软雅黑'; color:#3e3a39; height:69px; line-height:69px; padding-top:12px; border-bottom:1px solid #eeeeee; font-weight:900; margin-bottom:61px;} 
+.content .subContent .two{ font-size:12px; font-family:'微软雅黑'; color:#3e3a39; margin-bottom:32px;} 
+.content .subContent ul{ padding-left:219px; padding-bottom:41px;}
+.content .subContent li{ float:left;}
+.content .subContent .nine img{ display:block; float:left; padding-right:20px;}
+.content .subContent .nine .two { padding-right:0px;}
+.content .subContent .tob{ height:25px; line-height:25px; width:176px;  background:url(../images/tip_03.jpg) no-repeat 110px center;}
+.content .subContent .tob a { font-size:12px; font-family:'宋体'; color:#3e3a39;  text-indent:35px; font-weight:500;}
+.content .subContent .three p { display:block; float:left; font-size:12px; font-family:'宋体'; color:#3e3a39; height:25px; line-height:25px; padding-left:23px; background:url(../images/summer_08.jpg) no-repeat 0px 3px;}
+.content .subContent .three img { padding-top:4px; padding-right:13px;}
+.content .subContent .three img .eight{ padding-right:0px;}
+.content .subContent .three img:hover{ opacity:0.7; filter:alpha(opacity=70);}
+.content .subContent .tob a:hover{ opacity:0.7; filter:alpha(opacity=70);}

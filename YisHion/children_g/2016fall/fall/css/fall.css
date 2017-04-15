@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.content{width:100%; position:relative; border-top:1px solid #898989;}
+.subContent>p{font:12px/12px "微软雅黑"; text-align:center; color:#808285; background:#fff; position:absolute; top:-6px; left:470px; padding:0 11px;}
+.subContent>p a{font:12px/12px ""; color:#3e3a39; padding-left:15px; padding-right:10px;}
+.subContent>p a:hover{color:#000;}
+.subContent{width:991px; margin:0 auto;}
+.subContent .left{width:178px; float:left;}
+.subContent .left h2{font:18px/42px "微软雅黑"; color:#3e3a39; text-align:left;}
+.subContent .left ul{ padding-bottom:32px;}
+.subContent .left li a{font:12px/24px "微软雅黑"; color:#939598;}
+.subContent .left li a:hover{color:#000;}
+/*right*/
+.subContent .right{width:812px; float:left; padding-top:15px;}
+.subContent .right h2{font:18px/42px "微软雅黑"; color:#3e3a39; text-align:left; padding-bottom:49px;}
+.subContent .right>p{font:12px/48px "微软雅黑"; color:#3e3a39; text-align:left;}
+.subContent .right li{width:251px; float:left; padding-right:29px; padding-bottom:40px;}
+.subContent .right .li_right{ padding-right:0;}
+.subContent .right li p{ font:12px/18px "微软雅黑"; color:#3e3a39; padding-top:12px;}
+.subContent .right li p a{color:#3e3a39;}
+.subContent .right li p a:hover{color:#1c1a1a;}

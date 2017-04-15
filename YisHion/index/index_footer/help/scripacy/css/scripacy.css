@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.content{width:100%; border-top:1px solid #898989;}
+.subContent{width:990px; margin:0 auto;}
+.subContent>h2{ padding-top:42px; text-align:center; border-bottom:1px solid #d8d8d7;}
+.subContent>h2 a{font:30px/88px "微软雅黑"; color:#3e3a39;}
+.subContent ul{ margin:52px 0 41px 0;}
+.subContent ul li h2{ margin:17px 0 19px 0; font:18px/30px ""; color:#3e3a39; background:#ebebeb;
+                      text-indent:23px;}
+.subContent ul li p{font:12px/22px "微软雅黑"; color:#3e3a39;}
+.subContent ul.bottom{ border:1px solid #898989; padding:10px 0 10px 43px;}
+.subContent ul.bottom li{ float:left;}
+.subContent ul.bottom li p{ padding:39px 24px 39px 14px; font:18px/24px "微软雅黑"; color:#3e3a39;
+                            border-right:1px solid #d8d8d7;}

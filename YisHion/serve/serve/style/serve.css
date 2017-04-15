@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.bgline-box{ width:100%; border-top:1px solid #898989; position:relative;}
+.bgline{ width:130px; margin:0 auto; text-align:center; height:12px; line-height:12px; font-size:12px; background:#fff; position:absolute; left:45%; top:-6px;}
+.bgline span{ font-size:12px; color:#808285;}
+.sever-box{ width:100%;}
+.sever{ width:991px; margin:16px auto 0 auto;}
+.side_Nav{ width:178px; float:left;}
+.side_Nav h2{ font-size:18px; height:42px; line-height:42px; color:#3e3a39; font-family:"微软雅黑"; font-weight:normal;}
+.side_Nav li{ height:26px; line-height:26px;}
+.side_Nav li a{ font-size:12px; color:#939598; font-family:"微软雅黑"; font-weight:normal;}
+.side_Nav li a:hover{ color:#000;}
+.sever-right{ width:813px; float:left;}
+.fullSlide_c{ margin-top:54px;}
+.fullSlide_c li{ width:251px; float:left; margin-right:30px;}
+.fullSlide_c img{ display:block; width:251px; height:389px;}
+.sever-right .fullSlide_d h2{ text-align:center; font-size:22px; font-family:"宋体"; height:130px; line-height:130px; margin-top:21px; }
+.sever-right .fullSlide_d img{ margin-bottom:52px;}

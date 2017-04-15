@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after{ display:block; height:0; clear:both; content:"."; visibility:hidden;}
+ul,li,h2,h3,h4,h5,h6,label,form,ol,dl,dd,dt,p,filedset,legend{display:block;}
+ul{list-style:none;}
+a{text-decoration:none; outline:none;}
+img{border:0;}

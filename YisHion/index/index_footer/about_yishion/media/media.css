@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+/*content*/
+.content{ width:100%;}
+.content .subContent{ width:991px; margin:0 auto;}
+.content .subContent>h2{ width:991px; height:86px; line-height:86px; padding-top:44px; font-size:28px; color:#3e3a39; text-align:center; font-family:"微软雅黑";}
+.content .subContent .parter img{ display:block; width:620px; float:left; margin-right:40px; margin-bottom:27px;}
+.content .subContent .parter .right{ width:330px; float:left;}
+.content .subContent .parter .right>h2{ width:330px; height:48px; line-height:48px; padding-top:9px; font-size:22px; font-family:"宋体"; font-weight:bold; color:#3e3a39; border-bottom:1px solid #d8d8d7;}
+.content .subContent .parter .right p{ line-height:30px; font-size:12px; color:#3e3a39; padding-top:11px; padding-bottom:9px; border-bottom:1px solid #d8d8d7;}
+.content .subContent .parter .right>ul{ padding-top:10px;}
+.content .subContent .parter .right>ul li{ width:20px; float:left; margin-right:15px;}
+.content .subContent .parter .right>ul li.parter_one{ width:100px; height:16px; margin-right:15px; background:url(images/pic_03.gif) no-repeat left center;}
+.content .subContent .parter .right>ul li.parter_two{ width:20px; height:16px; margin-right:15px; background:url(images/pic_09.gif) no-repeat left center;}
+.content .subContent .parter .right>ul li.parter_three{ width:20px; height:16px; margin-right:15px; background:url(images/pic_11.gif) no-repeat left center;}
+.content .subContent .parter .right>ul li.parter_four{ width:20px; height:16px; margin-right:15px; background:url(images/pic_06.gif) no-repeat left center;}
+.content .subContent .parter .right>ul li.parter_five{ width:20px; height:16px; margin-right:15px; background:url(images/pic_13.gif) no-repeat left center;}
+/*form表单*/
+.content .subContent form{ width:991px; margin:27px auto 37px auto; height:34px; background:#ebebeb; position:relative; padding-top:4px;}
+.content .subContent form p.tag{ width:36px; margin-left:41px; font-size:18px; color:#3e3a39; float:left;}
+.content .subContent form select.tag_left{ width:198px; height:28px; line-height:28px; background:#ebebeb; font-size:12px; color:#3e3a39; position:absolute; left:100px; top:4px; text-align:center; border:1px solid #898989; cursor:pointer;}
+.content .subContent form p.date{ width:36px; padding-left:250px; font-size:18px; color:#3e3a39; float:left;}
+.content .subContent form select.date_right{ width:198px; height:28px; line-height:28px; background:#ebebeb; font-size:12px; color:#3e3a39; position:absolute; left:390px; top:4px; text-align:center; border:1px solid #898989; cursor:pointer;}
+/*主要内容开始*/
+.content .subContent .main{ width:991px; padding-bottom:12px; margin-top:12px; height:216px; border-bottom:1px solid #d8d8d7;}
+.content .subContent .main img{float:left; width:297px; margin-right:62px;}
+.content .subContent .main .container { width:620px; float:left;}
+.content .subContent .main .container h3{ font-size:16px; color:#3e3a39; height:33px; padding-top:5px;}
+.content .subContent .main .container>p{ font-size:12px; color:##3e3a39; line-height:24px;}
+.content .subContent .main .container .join{ height:20px; margin-top:14px;}
+.content .subContent .main .container .join span{ background:url(images/ia_03.gif) no-repeat left center; font-size:12px; color:#3e3a39; padding-left:30px; float:left;}
+.content .subContent .main .container .join p.share{ width:30px; margin-left:30px; float:left; background:url(images/ia_05.gif) no-repeat left center; padding-left:20px;}
+.content .subContent .main .container .join p.share a{ font-size:12px; color:#3e3a39;}
+
+
+
+
+
+

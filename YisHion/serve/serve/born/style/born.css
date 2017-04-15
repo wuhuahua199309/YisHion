@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+.yoing-box{ width:100%; border-top:1px solid #898989;}
+.yoing{ width:990px; margin:0 auto; text-align:center; border-bottom:1px solid #eeeeee; padding-bottom:24px; margin-bottom:10px; margin-top:32px; font-size:24px; font-family:"微软雅黑"; font-weight:bolder；}
+.main-box{ width:100%}
+.main{ width:990px; margin:0 auto;}
+.fanty-box{ width:100%;}
+.fanty{ width:639px; margin:0 auto;}
+.fanty .left,.center,.right{ float:left;}
+.fanty .left{ margin-right:35px;}
+.fanty .center{ font-size:12px; height:26px; line-height:26px; margin-right:57px;}
+.fanty .center a{ color:#3e3a39;}
+.fanty .right p{ float:left; display:block; width:56px;}
+.fanty .right a{ display:block; float:left;}
+

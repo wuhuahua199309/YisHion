@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+/*content开始*/
+.content_box{width:100%; border-top:1px #898989 solid;}
+.content_box .content{width:990px; margin:0 auto; position:relative; padding-top:20px; margin-bottom:40px;}
+.content>h3{width:133px; height:20px; line-height:20px; position:absolute; left:428px; top:-10px;
+font-size:12px; font-family:"微软雅黑"; color:#808285; text-align:center; background:#fff; font-weight:normal;}
+.content h3 a {font-size:12px; font-family:"微软雅黑"; color:#3e3a39;}
+.content>h2{height:42px; line-height:42px; font-size:14px; font-family:"微软雅黑"; color:#3e3a39; font-weight:normal;}
+/*left 开始*/
+.content .left{width:178px; float:left; padding-bottom:40px;}
+.content .left li{height:24px; line-height:24px;}
+.content .left li a{font-size:12px; font-family:"微软雅黑"; color:#939598;}
+.content .left li a:hover{color:#000;}
+.content .left .left_top{margin-bottom:30px;}
+/*left结束*/
+
+/*right*/
+.content .right{width:812px; float:left;}
+
+
+
+*{margin:0;padding:0;list-style:none;}
+body{background:#fff;font:normal 12px/22px 宋体;width:100%;}
+img{border:0;}
+a{text-decoration:none;color:#333;}
+a:hover{color:#1974A1;}
+/****************************************************************************************************************/
+
+/************************************************************************************************/
+.content .right .scroll{margin-bottom:33px;}
+.content .right .scroll li{float:left; margin-right:29px; }
+.content .right .bottom p{font-size:22px; font-family:"微软雅黑"; color:#3e3a39; text-align:center; height:106px; line-height:106px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

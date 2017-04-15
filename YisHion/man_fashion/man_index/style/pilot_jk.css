@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+.border{ width:100%; border-bottom:1px solid #898989; height:12px;}
+.content{ width:100%;}
+
+/*content*/
+.content .subContent{ width:991px; margin:0 auto;}
+.content .subContent h2{ margin-top:9px; height:68px; line-height:68px; width:991px; font-size:24px; color:#3e3a39; text-align:center; border-bottom:1px solid #eee;}
+.content .subContent .end{ width:991px; margin:0 auto; padding-top:82px; padding-bottom:41px;}
+.content .subContent .end span.like img{ display:block; padding-left:155px; width:92px; float:left; cursor:pointer;}
+.content .subContent .end span.hate img{ display:block; padding-left:21px; width:92px; float:left; cursor:pointer;}
+.content .subContent .end span.l_triangle{color:#030303; padding-left:56px;}
+.content .subContent .end span.l a{ color:#3e3a39; font-size:12px; padding-left:16px; padding-right:46px;}
+.content .subContent .end span.l a:hover{ color:#000;}
+.content .subContent .end span.r a{color:#3e3a39; font-size:12px; padding-right:16px;}
+.content .subContent .end span.r a:hover{ color:#000;}
+.content .subContent .end span.share{ background:url(../images/img_1_08.gif) no-repeat 30px center; padding-left:55px;}
+.content .subContent .end span.w{ margin-right:13px; cursor:pointer;}
+.content .subContent .end span.w:hover{ background:url(../images/w_03.gif) no-repeat;}
+.content .subContent .end span.b{ margin-right:13px; cursor:pointer;}
+.content .subContent .end span.b:hover{ background:url(../images/v__03.gif) no-repeat;}
+.content .subContent .end span.q{ cursor:pointer;}
+.content .subContent .end span.q:hover{ background:url(../images/w_05.gif) no-repeat;}
+

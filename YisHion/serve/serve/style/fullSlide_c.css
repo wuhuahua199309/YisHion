@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+.Recommend{ position:relative; margin-top:54px;}
+.Recommend .bd{ position:relative; overflow:hidden; height:389px;}
+.Recommend li{ width:251px; float:left; margin-right:30px; position:relative;}
+.Recommend li img{width:251px;height:389px;}
+.Recommend li .bg,
+.Recommend li .text{ position:absolute;width:100%;}
+.Recommend li .bg{ bottom:62px;  background-color:#fff;filter:alpha(opacity=80);opacity: 0.8;-moz-opacity:0.8;-khtml-opacity: 0.8; height:93px;}
+.Recommend li .text{ top:240px; text-align:center;}
+.Recommend li .text h5,
+.Recommend li .text h2{ font-weight:normal; margin:0; font-family:"微软雅黑";}
+.Recommend li .text h5{font-size:12px;}
+.Recommend li .text h2{ font-size:18px; padding-top:5px; padding-bottom:10px;}
+.Recommend li .more{ padding-left:14px; padding-right:26px; border:1px solid #898989; line-height:19px; display:inline-block; background:url(../images/a_more.png) no-repeat 90% center;}
+.Recommend li:hover .more{ background-color:#898989; background-image:url(../images/a_more_hover.png); color:#fff;}
+
+.Recommend .prev,
+.Recommend .next{ position:absolute; top:50%; width:30px; height:30px; margin-top:-15px; cursor:pointer;}
+.Recommend .prev{ left:-30px; background:url(../images/btn_prev_s.png) no-repeat;}
+.Recommend .next{ right:-30px; background:url(../images/btn_next_s.png) no-repeat right top;}
+

@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.content{width:100%; position:relative; border-top:1px solid #898989;}
+.subContent>p{font:12px/12px "微软雅黑"; text-align:center; color:#808285; background:#fff; position:absolute; top:-6px; left:566px; width:134px;}
+.subContent>p a{font:12px/12px "微软雅黑"; color:#3e3a39;}
+.subContent>p a:hover{color:#000;}
+.subContent{width:991px; margin:0 auto;}
+.subContent .left{width:178px; float:left;}
+.subContent .left h2{font:18px/42px "微软雅黑"; color:#3e3a39; text-align:left;}
+.subContent .left ul{ padding-bottom:32px;}
+.subContent .left li a{font:12px/24px "微软雅黑"; color:#939598;}
+.subContent .left li a:hover{color:#000;}
+/*right*/
+.subContent .right{width:812px; float:left; padding-top:25px;}
+.subContent .right .top{ padding-bottom:54px;}
+/*fullSlide*/
+/*.subContent .right .fullSlide{width:100%;position:relative;height:410px;background:#000;}
+.subContent .right .fullSlide .bd{margin:0 auto;position:relative;z-index:0;overflow:hidden;}
+.fullSlide .bd ul{width:100% !important;}
+.fullSlide .bd li{width:100% !important;height:410px;overflow:hidden;text-align:center;}
+.fullSlide .bd li a{display:block;height:410px;}
+.fullSlide .hd{width:100%;position:absolute;z-index:1;bottom:-60PX;left:0;height:44px;line-height:44px;}
+.fullSlide .hd ul{text-align:right;}
+.fullSlide .hd ul li{cursor:pointer;display:inline-block;*display:inline;zoom:1;width:10px;height:10px;margin:1px;overflow:hidden;background:#b5b5b6;filter:alpha(opacity=50);opacity:0.5;line-height:999px; border-radius:5PX;}
+.fullSlide .hd ul .on{background:#3e3a39;}
+.fullSlide .prev,.fullSlide .next{display:block;position:absolute;z-index:1;top:50%;margin-top:-30px;left:-42px;z-index:1;width:32px;height:50px;background:url(../images/slider-arrow.png) -130px -142px #000 no-repeat;cursor:pointer;filter:alpha(opacity=50);opacity:0.5;display:none;}
+.fullSlide .next{left:auto;right:-42px;background-position:-12px -142px;}
+*//*preferential*/
+.preferential{width:812px; margin:0 auto;}
+.preferential h2{font:22px/103px "微软雅黑"; color:#3e3a39; padding-top:34px; text-align:center;}
+.preferential img{ margin:0 auto 52px auto;}

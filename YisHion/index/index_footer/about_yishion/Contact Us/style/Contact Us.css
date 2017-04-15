@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+body{ color:#3e3a39; font-family:"微软雅黑";}
+.content{ width:100%;}
+.border{ width:100%; border-bottom:1px solid #898989; height:12px;}
+.content .subContent{ width:991px; margin:0 auto;}
+.content .subContent h2{ margin-top:40px; font-size:28px; text-align:center; line-height:89px; height:89px; font-weight:normal; border-bottom:1px solid #d8d8d7;}
+.content .subContent .question{ width:991px; margin:0 auto; border-bottom:1px solid #d8d8d7;}
+.content .subContent h3{ font-size:18px; margin-top:33px; height:59px; line-height:59px; font-weight:normal;}
+.content .subContent .question .contact{ width:460px; margin-right:70px; float:left;}
+.content .subContent .question .contact h4{ height:29px; width:444px; line-height:29px; font-size:16px; background:#ebebeb; margin-bottom:17px; font-weight:normal; padding-left:16px;}
+.content .subContent .question .contact p{ font-size:12px; line-height:24px; margin-bottom:15px;}
+.content .subContent .question .market h4{height:29px; width:444px; line-height:29px; font-size:16px; background:#ebebeb; margin-bottom:17px; font-weight:normal; padding-left:16px;}
+.content .subContent .question .market {width:460px; float:left; height:253px;}
+.content .subContent .question .market a{ display:block; width:38px; font-size:12px; float:left; color:#3e3a39; font-family:"微软雅黑"; line-height:24px;}
+.content .subContent .question .market a:hover{ color:#000;}
+.content .subContent .serve{ width:991px; margin:0 auto; border-bottom:1px solid #d8d8d7; margin-bottom:60px;}
+.content .subContent .serve h4{height:29px; width:444px; line-height:29px; font-size:16px; background:#ebebeb; margin-bottom:17px; font-weight:normal; padding-left:16px; margin-top:20px;}
+.content .subContent .serve p{font-size:12px; line-height:24px; margin-bottom:15px;}
+

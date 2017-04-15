@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="style/base.css" rel="stylesheet" type="text/css" />
+<link href="style/scaefo.css" rel="stylesheet" type="text/css" />
+<link href="style/common.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="auto"> 
+  <!--/*product info*/-->
+  <div class="product_info">
+    <div class="zoom-section prod_img">
+      <div class="zoom-desc small">
+        <ul class="ul">
+          <li><a href="images/1.jpeg" class="cloud-zoom-gallery" rel="images/1.jpeg"><img class="zoom-tiny-image" src="images/img_03.gif"></a></li>
+        </ul>
+      </div>
+      <div class="zoom-small-image big">
+        <div id="wrap" style="top:0px;z-index:10;position:relative;"><a href="images/img_03.gif" class="cloud-zoom" id="zoom1" rel="adjustX:10, adjustY:-4" style="position: relative; display: block;"><img src="images/img_03.gif" style="display: block;"></a>
+          <div class="mousetrap" style="background-image: url(&quot;.&quot;); z-index: 999; position: absolute; width: 384px; height: 576px; left: 0px; top: 0px; cursor: move;"></div>
+        </div>
+        <div class="collection"> <a href="javascript:void(0);" title="原图" class="view"></a>
+          <dl>
+            <span>10</span>人收藏
+          </dl>
+        </div>
+        <p>CLICK IMAGE TO ZOOM</p>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="prod_info">
+      <div class="intro">
+        <h1>潮流背包</h1>
+        <p>款号：1632907041</p>
+        <p>价格：RMB 239</p>
+        <p>尺寸：</p>
+        <p>颜色：宝蓝、黑色、灰色</p>
+        <div class="img"> </div>
+      </div>
+      <!--/*库存查询*/-->
+      <div id="scoupon" class="coupon">
+        <div class="stockSearch"><a href="javascript:void(0);">库存查询</a></div>
+        <div id="slist" class="list">
+          <ul class="ul">
+            <li>
+              <div id="shide_ewm" class="hide_ewm">
+                <div class="close">关闭</div>
+                <figure><img src="/uploadfiles/nopic.jpg" alt="微信扫码领取优惠券"></figure>
+                <p>微信扫码查询产品库存</p>
+              </div>
+            </li>
+          </ul>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <script>
+                            var stock ='';
+                            $(".stockSearch a").click(function () {
+                                if (stock != "") {
+                                    $("#shide_ewm").show();
+                                } else {
+                                    $(".stockSearch a").attr("href", "javascript:alert('暂无库存信息');");
+                                }
+
+                            });
+                        </script> 
+      <!--/*库存查询 end*/--> 
+      <!--/*优惠卷*/-->
+      <div class="coupon">
+        <h5>领取优惠券去店铺购买</h5>
+        <div class="list">
+          <ul class="ul">
+            暂无优惠券
+          </ul>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <script>
+                            $(".coupon li span").click(function () {
+                                $(this).parent().siblings().find("span").removeClass("select");
+                                $(this).parent().siblings().find(".hide_ewm").hide();
+                                $(this).addClass("select");
+                                $(this).next(".hide_ewm").show()
+                                // var e=$(this).index()
+                                //alert(e)
+                                //$(this).find(".hide_ewm").css({"left":"-"+e*109+"px","display":"block"});
+                            });
+                            $(".hide_ewm .close").click(function () {
+                                $(this).parent(".hide_ewm").prev("span").removeClass("select");
+                                $(this).parent(".hide_ewm").hide();
+                            });
+                        </script> 
+      <!--/*优惠卷 end*/--> 
+      <!--/*收藏*/-->
+      <div class="collection"><a id="_collection" href="javascript:;">收藏本品</a></div>
+      <!--/*收藏 end*/--> 
+      <!--/*分享更多*/-->
+      <div class="share">分享更多
+        <div class="bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1479795437952"><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博" style="background:url(images/pic_09.gif) no-repeat;"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信" style="background:url(images/pic_11.gif) no-repeat;"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网" style="background:url(images/pic_13.gif) no-repeat;"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博" style="background:url(images/pic_15.gif) no-repeat;" ></a></div>
+      </div>
+      <!--/*分享更多 end*/--> 
+      <!--/*描述*/-->
+      <div class="desc_info">
+        <h5>描述</h5>
+        <pre></pre>
+      </div>
+      <!--/*描述 end*/--> 
+    </div>
+    <div class="clear"></div>
+  </div>
+  <!--/*产品评价*/-->
+  <div class="Prod_Evaluation">
+    <div class="from">
+      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+          <tr>
+            <td class="name">产品评价</td>
+          </tr>
+          <tr>
+            <td><textarea class="text" id="txtcontent" onfocus="if(this.value=='请先会员登录再做评论，评论有礼哦！'){this.value=''}" onblur="if(this.value==''){this.value='请先会员登录再做评论，评论有礼哦！'}">请先会员登录再做评论，评论有礼哦！</textarea></td>
+          </tr>
+          <tr>
+            <td align="right"><input id="btnbubmit" class="btn" value="提交评价" type="button"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script type="text/javascript">
+                        $("#btnbubmit").click(function () {
+                            if ($("#txtcontent").val() == "" || $("#txtcontent").val() == "请先会员登录再做评论，评论有礼哦！") {
+                                alert("请输入评论内容");
+                            }
+                            else {
+                                $.ajax({
+                                    url: "/Ajax/AddComment.ashx", //路径需更改
+                                    type: "POST",
+                                    cache: false,
+                                    data: { "itemid": "35243", "Content": $("#txtcontent").val() },
+                                    success: function (state) {
+                                        switch (state) {
+                                            case "-1":
+                                                alert("用户没有登录");
+                                                window.location.href = "/cn/member/login.aspx";
+                                                break;
+                                            case "-2":
+                                                alert("参数错误");
+                                                break;
+                                            case "-3":
+                                                alert("评论内容不能为空");
+                                                break;
+                                            case "-4":
+                                                alert("你已经评论过该产品");
+                                                break;
+                                            case "1":
+                                                alert("提交成功");
+                                                window.location.href = window.location.href;
+                                                break;
+                                        }
+                                    }
+                                });
+                            }
+                        })
+
+                        //收藏
+                        $("#_collection").click(function () {
+                            $.ajax({
+                                url: "/Ajax/AddCollection.ashx", //路径需更改
+                                type: "POST",
+                                cache: false,
+                                data: { "action": "add", "itemid": "35243" },
+                                success: function (state) {
+                                    switch (state) {
+                                        case "-1":
+                                            alert("用户没有登录");
+                                            window.location.href = "/cn/member/login.aspx";
+                                            break;
+                                        case "-2":
+                                            alert("参数错误");
+                                            break;
+                                        case "-3":
+                                            alert("您已经收藏过该商品");
+                                            break;
+                                        case "1":
+                                            alert("收藏成功");
+                                            location.reload();
+                                            break;
+                                    }
+                                }
+                            });
+                        })
+                        $(function () {
+                            //页面加载后判断会员是否收藏过该产品
+                            $.ajax({
+                                url: "/Ajax/isCollect.aspx", //路径需更改
+                                type: "POST",
+                                cache: false,
+                                data: { "itemid": "35243" },
+                                success: function (state) {
+                                    switch (state) {
+                                        case "1":
+                                            $("#_collection").text("已收藏");
+                                            break;
+                                    }
+                                }
+                            });
+                            //设置面包屑
+                            $(".Current a").each(function () {
+                                var href = $(this).attr("href");
+                                href = href.replace(/lcid/, "cid");
+                                $(this).attr("href", href);
+                            })
+                        })
+                    </script>
+    <div class="list">
+      <h5><span>展开查看更多 +</span>精选评论</h5>
+      <ul class="ul">
+        暂无记录
+      </ul>
+    </div>
+    <script>
+                        $(".Prod_Evaluation .list li").each(function (index) {
+                            if (index >= 2) {
+                                $(this).hide();
+                            }
+                        });
+                        //                        $(".Prod_Evaluation .list h5 span").click(function () {
+                        //                            $(".Prod_Evaluation .list li").show();
+                        //                        });
+
+
+
+                        $(document).ready(function () {
+                            $(".Prod_Evaluation .list h5 span").toggle(
+								  function () {
+								      $(".Prod_Evaluation .list li").show();
+								      $(this).text("关闭查看更多 -");
+								  },
+								  function () {
+								      $(".Prod_Evaluation .list li").hide();
+								      $(this).text("展开查看更多 +");
+								      $(".Prod_Evaluation .list li").each(function (index) {
+								          if (index <= 1) {
+								              $(this).show();
+								          }
+								      });
+								  }
+							  );
+                        });
+                    </script> 
+  </div>
+  <!--/*产品评价 end*/--> 
+  <!--/*潮流搭配*/-->
+  <div class="Trend_with" style="display: none;">
+    <h1>潮流搭配</h1>
+    <div class="list">
+      <dl>
+        暂无记录
+      </dl>
+    </div>
+  </div>
+  <script>
+                    var index = $(".Trend_with dd").length
+                    if (index == 0) {
+                        $(".Trend_with").hide()
+                    }
+                    $(".Trend_with dd:last-child").addClass("end");
+                </script> 
+  <!--/*潮流搭配 end*/--> 
+  
+  <!--/*product info end*/-->
+  
+  <div class="ad"> <a href="http://www.yishion.com/promotion/info_62.aspx?itemid=43151&amp;lcid=247" target="_blank"><img src="images/2.jpg" onerror="this.src='/uploadfiles/nopic.jpg'"></a> </div>
+</div>
+</body>
+</html>

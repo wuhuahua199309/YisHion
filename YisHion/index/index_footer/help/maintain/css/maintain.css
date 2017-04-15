@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+.content{ width:100%; margin:10px auto; border-top:1px solid #898989;}
+.content .subContent{ width:990px; margin:0px auto;}
+.content .subContent h1{ font-size:30px; font-family:"微软雅黑"; height:89px; line-height:89px; padding-top:45px; font-weight:normal; color:#3e3a39; text-align:center; border-bottom:1px solid #d8d8d7; margin-bottom:50px;}
+.content .subContent h1 span{ color:#585453;}
+.content .subContent p{ font-size:18px; font-family:"微软雅黑"; color:#3e3a39; height:41px; line-height:41px; background:#ebebeb; padding-left:40px; }
+.content .subContent p select{ height:30px; line-height:30px; width:140px; margin:6px 0px 7px 25px; border:1px solid #898989; border-radius:0px; background:#ebebeb;}
+.content .subContent ul{ padding-top:39px;}
+.content .subContent li{ width:990px; padding-top:12px; padding-bottom:12px; border-bottom:1px solid #d8d8d7;}
+.content .subContent li img{ display:block; float:left; padding-right:140px;}
+.content .subContent li dt{ font-size:20px; font-family:'微软雅黑'; color:#3e3a39; height:29px; line-height:29px; padding-bottom:10px;}
+.content .subContent li dd{ font-size:14px; font-family:'微软雅黑'; color:#3e3a39; line-height:24px;}
+.content .subContent li .two{ padding-top:15px;}
+.content .subContent li .two span{ padding-left:24px; background:url(../images/dd_03.jpg) no-repeat 0px 1px;}
+.content .subContent li .two a{ padding-left:50px; padding-right:44px; color:#3e3a39; background:url(../images/dd_06.jpg) no-repeat 28px 4px;}

@@ -1,0 +1,34 @@
+@charset "utf-8";
+*{margin:0; padding:0;}
+.clearfix:after{ height:0; display:block; content:'.'; visibility:hidden; clear:both;}
+h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,form,label,fieldset,legend,p,header,footer,nav,section,aside,article{display:block;}
+ul{list-style:none;}
+img{border:0;}
+a{text-decoration:none; outline:none;}
+.ellipsis{white-space: nowrap;  text-overflow: ellipsis;  overflow: hidden; }
+body{font-family:"微软雅黑"; font-size:14px; font-weight:normal;}
+/* CSS Document */
+.bgline-box{ width:100%; background:url(../images/bgline.jpg) repeat-x 0 center;}
+.bgline{ width:1420px; margin:0 auto; text-align:center; height:12px; line-height:12px; font-size:12px;}
+.main-box{ width:100%;}
+.main{ width:1350px; margin:22px auto 53px auto;}
+.main .main-left{ width:420px; float:left; position:relative;}
+.main .main-left h2{ font-size:20px; color:#3e3a39; height:28px; line-height:28px; margin-bottom:15px;font-weight:normal;}
+.main .main-left h2 span{ width:44px; text-align:center; display:inline-block;}
+.main .main-left ul li{ width:120px; text-align:left; font-size:14px; height:24px; line-height:24px;}
+.main .main-left ul li a{ color:#939598;}
+.main .main-left ul li a:hover{ color:#333;}
+.main .main-left p{
+	width: 252px;
+	display: block;
+	float: left;
+	height: 18px;
+	line-height: 18px;
+	font-size: 12px;
+	color: #939598;
+	position: absolute;
+	left: 120px;
+	top: 43px;
+}
+.main .main-right{ width:930px; float:left; position:relative;}
+.main .main-right .img-s{ position:absolute; top:0; right:0;}

@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+body{ color:#3e3a39; font-family:"微软雅黑";}
+.content{ width:100%;}
+.border{ width:100%; border-bottom:1px solid #898989; height:12px;}
+.content .subContent{ width:991px; margin:0 auto;}
+.content .subContent h2{ margin-top:40px; font-size:28px; text-align:center; line-height:89px; height:89px; font-weight:normal; border-bottom:1px solid #d8d8d7;}
+.content .subContent h3{ width:969px; height:30px; line-height:30px; padding-left:22px; font-size:18px; background:#ebebeb; font-weight:normal;}
+.content .subContent p{ padding-top:19px; padding-bottom:17px; line-height:24x; font-size:14px;}
+
+
+
